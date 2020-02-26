@@ -51,4 +51,22 @@ describe("String Manipulation Functions", function () {
       assert.equal(-1, strings.getLastIndexOf('Hello Hello!', '@'));
     });
   });
+
+  describe('#getSlice(string, start, end)', function () {
+    it('should return the string \'a test\' which is between positions 8 and 14 inclusively', function () {
+      assert.equal('a test', strings.getSlice('This is a test string.', 8, 14));
+    });
+
+    it('should return the original string because the end position is outside the bounds of the given string', function () {
+      assert.equal('Hello World!', strings.getSlice('Hello World!', 0, 100));
+    });
+
+    it('should return the letter \'H\' because the positions are from 0 to 1', function () {
+      assert.equal('H', strings.getSlice('Hello World!', 0, 1));
+    });
+
+    it('should return a blank string because the positions are from 3 to 3', function () {
+      assert.equal('', strings.getSlice('Hello World!', 3, 3));
+    });
+  });
 });

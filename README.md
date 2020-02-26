@@ -1,2 +1,2 @@
-# nodejs-web-scraper
-A NodeJS implementation of an incredible basic web scraper to test Mocha/Chai TDD and the NodeJS environment.
+# nodejs-testing
+A NodeJS implementation of incredibly basic Mocha and Chai testing. This is meant to be a learning repository for NodeJS programming and the NPM.

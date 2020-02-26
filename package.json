@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-web-scraper",
+  "version": "0.0.1",
+  "description": "Simple NodeJS web scraper with TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherBilg/nodejs-web-scraper.git"
+  },
+  "author": "Christopher Bilger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChristopherBilg/nodejs-web-scraper/issues"
+  },
+  "homepage": "https://github.com/ChristopherBilg/nodejs-web-scraper#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.0"
+  }
+}

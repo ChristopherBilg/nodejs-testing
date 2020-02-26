@@ -41,4 +41,14 @@ describe("String Manipulation Functions", function () {
       assert.equal(-1, strings.getIndexOf('Hello World!', '@'));
     });
   });
+
+  describe('#getLastIndexOf(string, substring)', function () {
+    it('should return the last index of \'Hello\' as 6', function () {
+      assert.equal(6, strings.getLastIndexOf('Hello Hello!', "Hello"));
+    });
+
+    it('should return the last index of \'@\' as -1', function () {
+      assert.equal(-1, strings.getLastIndexOf('Hello Hello!', '@'));
+    });
+  });
 });

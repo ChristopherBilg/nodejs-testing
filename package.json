@@ -1,5 +1,6 @@
 {
   "name": "nodejs-testing",
+  "private": "true",
   "version": "0.0.1",
   "description": "Simple NodeJS TDD testing",
   "main": "src/index.js",

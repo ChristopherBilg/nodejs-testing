@@ -4,7 +4,7 @@
   "description": "Simple NodeJS web scraper with TDD",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ChristopherBilg/nodejs-web-scraper#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^7.1.0"
+    "mocha": "^7.1.0",
+    "nyc": "^15.0.0"
   }
 }

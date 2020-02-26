@@ -1,23 +1,27 @@
 {
-  "name": "nodejs-web-scraper",
+  "name": "nodejs-testing",
   "version": "0.0.1",
-  "description": "Simple NodeJS web scraper with TDD",
+  "description": "Simple NodeJS TDD testing",
   "main": "src/index.js",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "lint": "eslint src/ && jshint src/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChristopherBilg/nodejs-web-scraper.git"
+    "url": "git+https://github.com/ChristopherBilg/nodejs-testing.git"
   },
   "author": "Christopher Bilger",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ChristopherBilg/nodejs-web-scraper/issues"
+    "url": "https://github.com/ChristopherBilg/nodejs-testing/issues"
   },
-  "homepage": "https://github.com/ChristopherBilg/nodejs-web-scraper#readme",
+  "homepage": "https://github.com/ChristopherBilg/nodejs-testing#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "jshint": "^2.11.0",
     "mocha": "^7.1.0",
     "nyc": "^15.0.0"
   }

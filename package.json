@@ -5,6 +5,7 @@
   "description": "Simple NodeJS TDD testing",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "nyc mocha test/",
     "lint": "eslint src/ && jshint src/"
   },

@@ -67,6 +67,6 @@ describe("String Manipulation Functions", function () {
 
     it('should return a blank string because the positions are from 3 to 3', function () {
       assert.equal('', strings.getSlice('Hello World!', 3, 3));
-    });z
+    });
   });
 });
